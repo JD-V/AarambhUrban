@@ -649,8 +649,9 @@ html, body {
 .site-header {
     position: fixed;
     padding: 20px 0 0;
-    background-color: transparent;
+    /* background-color: transparent; */
     width: 100%;
+    height: 60px;
     z-index: 997;
 }
 
@@ -660,7 +661,7 @@ html, body {
 .site-title-header {
     font-size: 20px;
     line-height: 26px;
-    color: #e9e9ee;
+    /* color: #e9e9ee; */
 }
 
 .site-title-header:hover {
@@ -675,11 +676,11 @@ html, body {
     color: #fff;
 }
 
-.site-title {
+/* .site-title {
     font-size: 18px;
     line-height: 26px;
     color: #26272d;
-}
+} */
 
 .site-title:hover {
     color: #26272d;   
@@ -1822,7 +1823,7 @@ a.whatsapp-bg:hover {
 }
 
 p {
-    margin: 20px;
+    margin: 30px 20px 20px 20px;
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
@@ -1975,4 +1976,14 @@ li::marker {
 li::marker {
     color: transparent;
   }
+
+.site-title-dum {
+    position: absolute;
+    font-size: 20px;
+    line-height: 26px;
+    color: #26272d;
+    left: 50%;
+    padding-left: -60px;
+    transform: translate(-50%, 0%);
+}	
     

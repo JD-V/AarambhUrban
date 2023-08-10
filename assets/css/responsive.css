@@ -22,6 +22,7 @@
 	.section-map-feature .btn {
 		margin: 60px 0 165px;
 	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -156,6 +157,7 @@
 		margin-top: 40px;
 		padding-left: 0;
 	}
+
 }
 
 /* Small Devices, Tablets */
@@ -213,7 +215,7 @@
 
 	/* HEADER */
 	.site-header {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 	
 	.navbar-header .site-title {
