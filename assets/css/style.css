@@ -630,6 +630,8 @@ html, body {
     object-fit: cover;
 }
 
+
+
 /* Background colors */
 .gray-bg {
   background-color: #f5f5f8;
@@ -1279,7 +1281,6 @@ a.email:hover {
 a.facebook-bg {
   color: #3b5998;
   border-color: #3b5998;
-  margin: 10px;
 }
 
 a.facebook-bg:hover{
