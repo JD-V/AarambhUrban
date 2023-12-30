@@ -1217,6 +1217,22 @@ html, body {
 .contact-links li {
     position: relative;
 }
+address {
+    
+    margin-left: 45px;
+    color: #8c8f94;
+    position: absolute  ;
+    
+    margin-top: 22px;
+    font-weight: 400;
+    color: #8c8f94;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    
+  }
 
 .contact-links li i {
     position: absolute;
@@ -1975,6 +1991,7 @@ a {
     color: #222222;
     text-decoration: none;
     outline: none !important;
+    
 }
 
 .social_icon ul{
